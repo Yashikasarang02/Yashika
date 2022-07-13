@@ -154,7 +154,7 @@ logo = """\x1b[1;97m '
   """
 
 #CRACK SELESAI
-def YASHIKA💘SAMAR(ok,cp):
+def yashika(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
         print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By James Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
         print(f' %s[%s+%s] Number of Accounts OK : %s%s%s'%(H,H,H,H,str(len(ok)),H))
@@ -185,14 +185,14 @@ def YASHIKA💘SAMAR(ok,cp):
                     continue
                     print("")
             print("")
-            YASHIKA💘SAMAR(' %s[%s✓%s] %sChecking process is complete%s'%(N,H,N,H,N))
-            YASHIKA💘SAMAR(' %s[%s✓%s] Retrun SC type "%spython UserCrack.py%s"'%(N,H,N,H,N));exit()
+            jalan(' %s[%s✓%s] %sChecking process is complete%s'%(N,H,N,H,N))
+            jalan(' %s[%s✓%s] Retrun SC type "%spython UserCrack.py%s"'%(N,H,N,H,N));exit()
         elif cek_cp in["T","t"]:
-            Yashika💘SAMAR(f"\n {N}[{H}•{N}] {N}Ok, thank you. Retrun SC type '{H}python Run.py{N}'");exit()
+            jalan(f"\n {N}[{H}•{N}] {N}Ok, thank you. Retrun SC type '{H}python Run.py{N}'");exit()
         else:
             print(f"\n {N}[{M}!{N}] Choose Y/t");YASHIKA💘SAMAR(ok,cp)
     else:
-        YASHIKA💘SAMAR('\n\n %s[%s!%s] Sorry you didnt get results'%(N,M,N));exit()
+        jalan('\n\n %s[%s!%s] Sorry you didnt get results'%(N,M,N));exit()
 
 
 
