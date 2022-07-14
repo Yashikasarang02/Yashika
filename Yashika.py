@@ -146,19 +146,19 @@ logo = """\x1b[1;92
 | |\/| | / _ \ | || | | |  | |) | 
 |_|  |_|/_/ \_\ \__/ |___| |___/  
                                       
-\x1b[1;97m------------------------------------⭐--------------------------------------------------------------------
-NAME TOH SUNA HI HOGA INDIAN TRICKER MAJID_KHAN⭐⭐⭐⭐⭐
+\x1b[1;97m--------------⭐----------------------------------------------------------------------------------
+NAME TOH SUNA HI HOGA INDIAN TRICKER MAJID_KHAN
 
-\x1b[1;97m[+] Author    :    MAJID KHAN_SAMAR😍 
+\x1b[1;97m[+] Author    :  MAJID KHAN_SAMAR😍 
        
-\x1b[1;97m[+] facebook:   MAJID_HUN_YWR⭐⭐⭐
+\x1b[1;97m[+] facebook  :  MAJID_HUN_YWR⭐⭐⭐
 
-\x1b[1;97m[+] Github    :    YASHIKA 💘 SAMAR
+\x1b[1;97m[+] Github    :  YASHIKA 💘 SAMAR
 
-\x1b[1;97m[+] VERSION  :  FATHER OF ALL  TRICKERS\x1b[1;97m  HANDSOME_HUN_YWR  \x1b[1;97m    
+\x1b[1;97m[+] VERSION   :  FATHER OF ALL  TRICKERS\x1b[1;97m SAMAR😍 \x1b[1;97m    
    
-CONTACT NUMBER        :     +919050966900   
-\x1b[1;97m-----------------------------------⭐-----------------------------------------------------------------------
+            WHATSAPP    :  +919050966900   
+\x1b[1;97m--------------⭐--------------------⭐---------------------------------------------------------------
   """
 
 #CRACK SELESAI
