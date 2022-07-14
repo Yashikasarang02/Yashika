@@ -168,7 +168,7 @@ def hasil(ok,cp):
         print(f' [%s+%s] Number of Accounts CP : %s%s%s'%(H,H,H,str(len(cp)),H))
         cek_cp = input(f"{H}══════════════════════════════════════════\n [{H}+{H}] Show CP detector options [{H}Y{N}/{M}t{N}]: ")
         if cek_cp =="":
-            print(f"\n [{M}!{N}] Don't be empty");hasil(ok,cp)
+            print(f"\n [{M}!{N}] Don't be empty");majid(ok,cp)
         elif cek_cp in["Y","y"]:
             jalan(f" {N}[{M}!{N}] Play airplanemode first");time.sleep(5)
             ww=input(f"\n {N}[{K}?{N}] Change password when {BM}TAP YES{N} [{H}Y{N}/{M}t{N}]: ")
@@ -187,7 +187,7 @@ def hasil(ok,cp):
                 print(f'{N}══════════════════════════════════════════\n {H}LOGIN PROCESS')
                 jalan(f' {N}[{M}?{N}] Account : {K}{kontol.replace("[NAME-CP] ", "")}{N}')
                 try:
-                    log_hasil(titid[0].replace("[NAME-CP] ", ""), titid[1])
+                    log_majid(titid[0].replace("[MAJID-CP] ", ""), titid[1])
                 except requests.exceptions.ConnectionError:
                     continue
                     print("")
@@ -271,7 +271,7 @@ class __chigoue__:
             self.chi(id)
     def __metode__(self, cebok, user, pasw):
         global ok,cp,loop
-        animasi = random.choice(["\x1b[1;92m[NAME]","\x1b[1;91m[NAME]","\x1b[1;93m[NAME]","\x1b[1;94m[NAME]","\x1b[1;95m[NAME]","\x1b[1;96m[NAME]","\x1b[1;97m[NAME]"])
+        animasi = random.choice(["\x1b[1;92m[MAJID]","\x1b[1;91m[MAJID]","\x1b[1;93m[MAJID]","\x1b[1;94m[MAJID]","\x1b[1;95m[MAJID]","\x1b[1;96m[MAJID]","\x1b[1;97m[MAJID]"])
         sys.stdout.write(f"\r{O}{animasi} {BP}{loop}{N}|{BM}{len(self.id)}{N}][{H}OK:{len(ok)}{B}][{H}{'{:.1%}'.format(loop/float(len(self.id)))}{N}]")
         sys.stdout.flush()
         try:
@@ -611,5 +611,5 @@ class __chigoue__:
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             MAJID(ok,cp)
-if __name__ == '__main__':
+if __majid__ == '__main__':
     file()
