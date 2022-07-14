@@ -612,5 +612,5 @@ class __chigoue__:
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             MAJID(ok,cp)
-if __MAJID__ == '__main__':
+if __name__ == '__main__':
     file()
